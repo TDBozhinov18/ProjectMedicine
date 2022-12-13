@@ -5,9 +5,9 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
         SimpleDateFormat dateFormat = new SimpleDateFormat("dd-MMM-yyyy");
-        Medicine med1 = new Medicine("Medicaments S++", 5.99, 69, LocalDate.of(2023, 3, 28));
-        Medicine med2 = new Medicine("Medicaments L++", 9.99, 42, LocalDate.of(2021, 7, 14));
-        Medicine med3 = new Medicine("Medicaments XXL++", 15.99, 5, LocalDate.of(2021, 12, 8));
+        Medicine med1 = new Medicine("Medicaments S++", 4.99, 69, LocalDate.of(2023, 3, 28));
+        Medicine med2 = new Medicine("Medicaments L++", 9.99, 42, LocalDate.of(2023, 7, 14));
+        Medicine med3 = new Medicine("Medicaments XXL++", 15.99, 5, LocalDate.of(2022, 12, 8));
         List<Medicine> meds = Arrays.asList(med1, med2, med3);
 
         System.out.println("Zad 1:");
